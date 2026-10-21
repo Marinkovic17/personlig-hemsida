@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luka Marinkovic | Digital Marketing Specialist</title>
+    <meta name="description"
+        content="Luka Marinkovic är en driven Digital Marketing Specialist och studerande på IHM Business School. Hjälper företag med digital strategi, SEO, webbutveckling och e-handel.">
+    
+    <!-- Google Fonts: Montserrat for bold editorial headings, Inter for crisp body typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <!-- Top Navigation Bar -->
+    <header class="sidhuvud" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="brand-logo" aria-label="Luka Marinkovic startsida">
+                LUKA<span class="dot">.</span>
+            </a>
+
+            <button class="mobile-menu-toggle" id="mobile-toggle" aria-label="Öppna meny" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="huvudmeny" aria-label="Huvudmeny">
+                <ul class="nav-links">
+                    <li><a href="#hero" class="nav-link active">HEM</a></li>
+                    <li><a href="#om" class="nav-link">OM MIG</a></li>
+                    <li><a href="#kompetenser" class="nav-link">KOMPETENSER</a></li>
+                    <li><a href="#kontakt" class="nav-link">KONTAKT</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="tema" type="button" class="theme-toggle-btn" aria-label="Växla färgtema" title="Växla färgtema">
+                    <span class="theme-icon sun-icon">☀️</span>
+                    <span class="theme-icon moon-icon">🌙</span>
+                    <span class="theme-text">Tema</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section: Split Editorial Layout (Matching Pinterest Reference) -->
+        <section class="hero-section" id="hero">
+            <div class="hero-grid">
+                <!-- Left: Typography & Intro -->
+                <div class="hero-content">
+                    <div class="dot-matrix-pattern" aria-hidden="true"></div>
+                    
+                    <div class="hero-text-block">
+                        <p class="hero-eyebrow">HEJ, MITT NAMN ÄR</p>
+                        <h1 class="hero-title">
+                            <span class="title-first">LUKA</span>
+                            <span class="title-last">MARINKOVIC</span>
+                        </h1>
+                        
+                        <div class="hero-badge-container">
+                            <span class="hero-badge">DIGITAL MARKETING SPECIALIST</span>
+                        </div>
+
+                        <p class="hero-intro-text">
+                            Hej och Välkommen till min hemsida! Jag brinner för att hjälpa företag att hitta sin digitala strategi – framtiden för framgångsrikt entreprenörskap.
+                        </p>
+
+                        <div class="hero-actions">
+                            <a class="knapp knapp-gul" href="#kontakt">Kontakta mig</a>
+                            <a class="knapp knapp-outline" href="cv.pdf" target="_blank" rel="noopener noreferrer" aria-label="Öppna Luka Marinkovics CV">CV</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Editorial Portrait -->
+                <div class="hero-image-pane">
+                    <div class="hero-img-wrapper">
+                        <img src="img/hero-portrait.jpg" alt="Luka Marinkovic - Digital Marketing Specialist" class="hero-portrait" width="600" height="800">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section ("OM MIG") - Layered Frame Design -->
+        <section id="om" class="about-section">
+            <div class="section-container">
+                <div class="about-grid">
+                    <!-- Left Column: Layered Photo Frame -->
+                    <div class="about-image-column">
+                        <div class="about-frame-wrapper">
+                            <!-- Offset dark geometric block behind photo -->
+                            <div class="about-frame-backing" aria-hidden="true">
+                                <div class="accent-circles">
+                                    <span class="circle circle-solid"></span>
+                                    <span class="circle circle-yellow"></span>
+                                    <span class="circle circle-outline"></span>
+                                </div>
+                            </div>
+                            
+                            <!-- The portrait photo -->
+                            <div class="about-image-card">
+                                <img src="img/luka-marinkovic.jpg" alt="Luka Marinkovic - Porträtt och profil" width="480" height="480">
+                            </div>
+
+                            <!-- Decorative dot grid below image -->
+                            <div class="about-dot-matrix" aria-hidden="true"></div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Story & Information -->
+                    <div class="about-text-column">
+                        <div class="section-badge-wrapper">
+                            <span class="sub-label">VEM ÄR JAG</span>
+                        </div>
+
+                        <div class="heading-with-wave">
+                            <h2 class="section-title">HEJ<span class="dot-yellow">.</span></h2>
+                            <!-- Modern decorative zigzag/wave SVG (as seen in pin) -->
+                            <svg class="decorative-wave" width="80" height="24" viewBox="0 0 80 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path d="M2 12L10 4L18 20L26 4L34 20L42 4L50 20L58 4L66 20L74 4L78 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+
+                        <div class="about-body-text">
+                            <p>
+                                Jag är en egenföretagare och studerande på IHM Business School som Digital Marketing Specialist. Jag
+                                brinner för att hjälpa företag att hitta sin digitala strategi eftersom att det är entreprenörskapets
+                                framtid. Jag är en driven person med passion för entreprenörskap och digital marknadsföring.
+                            </p>
+                            <p>
+                                Jag är också flexibel och kan anpassa mig till olika situationer och utmaningar. Jag är också en lagspelare och
+                                kan samarbeta med andra för att nå gemensamma mål. Med mitt driv och kreativitet kan jag bidra med idéer
+                                som är innovativa och kan hjälpa dig att nå dina affärsmål.
+                            </p>
+                            <p>
+                                Som person är jag kreativ, driven, strukturerad och lösningsorienterad. Jag trivs med att samarbeta mot
+                                gemensamma mål, men tar också gärna eget ansvar och driver mitt arbete framåt självständigt.
+                            </p>
+                        </div>
+
+                        <!-- Highlights Pills -->
+                        <div class="about-pills">
+                            <span class="pill-tag">IHM Business School</span>
+                            <span class="pill-tag">Egenföretagare</span>
+                            <span class="pill-tag">Digital Strategi</span>
+                            <span class="pill-tag">Lösningsorienterad</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Competencies & Projects Section ("MY WORK" - 3x3 Grid with Yellow Highlight Card) -->
+        <section id="kompetenser" class="work-section">
+            <div class="section-container">
+                <!-- Centered Section Title -->
+                <div class="section-header-center">
+                    <div class="yellow-target-icon" aria-hidden="true">
+                        <span class="target-ring"></span>
+                        <span class="target-center"></span>
+                    </div>
+                    <h2 class="work-main-heading">KOMPETENSER &amp; PROJEKT</h2>
+                    <p class="work-sub-heading">
+                        <span class="highlight-text">expertis &amp; framgångsrika lösningar</span>
+                    </p>
+                </div>
+
+                <!-- Filter Navigation Tabs (Like in Pinterest pin: ALL, GRAPHIC, WEBDESIGN...) -->
+                <div class="filter-bar" role="tablist" aria-label="Filtrera kompetenser och projekt">
+                    <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">ALLA</button>
+                    <button class="filter-btn" data-filter="marknadsforing" role="tab" aria-selected="false">MARKNADSFÖRING</button>
+                    <button class="filter-btn" data-filter="webb" role="tab" aria-selected="false">WEBB &amp; SEO</button>
+                    <button class="filter-btn" data-filter="ehandel" role="tab" aria-selected="false">E-HANDEL</button>
+                    <button class="filter-btn" data-filter="projekt" role="tab" aria-selected="false">PROJEKT</button>
+                </div>
+
+                <!-- 3x3 Portfolio & Competence Grid (Matching Pinterest pin layout) -->
+                <div class="work-grid">
+                    <!-- Card 1: Webbdesign & Webbutveckling -->
+                    <article class="grid-card editorial-card light-editorial" data-category="webb">
+                        <div class="editorial-card-inner">
+                            <span class="card-tag">UTVECKLING</span>
+                            <h3 class="card-title">Webbdesign &amp; Webbutveckling</h3>
+                            <p class="card-desc">Skapande av moderna, responsiva och användarvänliga webbplatser.</p>
+                            <div class="card-metric-badge dark-badge">Modern &amp; Responsiv</div>
+                        </div>
+                    </article>
+
+                    <!-- Card 2: Digital marknadsföring -->
+                    <article class="grid-card editorial-card light-editorial" data-category="marknadsforing">
+                        <div class="editorial-card-inner">
+                            <span class="card-tag">STRATEGI</span>
+                            <h3 class="card-title">Digital marknadsföring</h3>
+                            <p class="card-desc">Helhetsstrategier för att stärka varumärkets närvaro online.</p>
+                            <div class="card-metric-badge dark-badge">Datadriven tillväxt</div>
+                        </div>
+                    </article>
+
+                    <!-- Card 3: SEO & Organisk trafik -->
+                    <article class="grid-card editorial-card light-editorial" data-category="webb">
+                        <div class="editorial-card-inner">
+                            <span class="card-tag">SÖKMOTORER</span>
+                            <h3 class="card-title">SEO &amp; Organisk trafik</h3>
+                            <p class="card-desc">Sökordsoptimering som driver högkvalitativ, organisk trafik till din sajt.</p>
+                            <div class="card-metric-badge dark-badge">Topplaceringar</div>
+                        </div>
+                    </article>
+
+                    <!-- Card 4: Social Media Management -->
+                    <article class="grid-card editorial-card light-editorial" data-category="marknadsforing">
+                        <div class="editorial-card-inner">
+                            <span class="card-tag">SOCIALA MEDIER</span>
+                            <h3 class="card-title">Social Media Management</h3>
+                            <p class="card-desc">Hantering av sociala kanaler samt målinriktad annonsering.</p>
+                            <div class="card-metric-badge dark-badge">Engagemang &amp; Räckvidd</div>
+                        </div>
+                    </article>
+
+                    <!-- Card 5: E-handel & Optimering -->
+                    <article class="grid-card editorial-card light-editorial" data-category="ehandel">
+                        <div class="editorial-card-inner">
+                            <span class="card-tag">KONVERTERING</span>
+                            <h3 class="card-title">E-handel &amp; Optimering</h3>
+                            <p class="card-desc">Optimering av e-handelsplattformar för ökad konvertering och försäljning.</p>
+                            <div class="card-metric-badge dark-badge">Ökad tillväxt &amp; ROI</div>
+                        </div>
+                    </article>
+
+                    <!-- Card 6: THE HIGHLIGHTED YELLOW CARD (Featured Project: Luktech) -->
+                    <!-- Exactly matching the iconic yellow square card in the Pinterest pin -->
+                    <article class="grid-card yellow-feature-card" data-category="projekt" id="projekt">
+                        <div class="yellow-card-content">
+                            <div class="yellow-card-icon" aria-hidden="true">
+                                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="11" cy="11" r="8"></circle>
+                                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                </svg>
+                            </div>
+                            <h3 class="yellow-card-title">LUKTECH</h3>
+                            <span class="yellow-card-badge">UTVALT PROJEKT</span>
+                            <p class="yellow-card-text">
+                                Besök min hemsida för att se ett exempel på min expertis och vad jag skapar!
+                            </p>
+                            <a class="yellow-card-cta" href="https://luktech.io/" target="_blank" rel="noopener">
+                                Besök Luktech.io <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Card 7: Affiliate Marketing -->
+                    <article class="grid-card editorial-card light-editorial" data-category="marknadsforing ehandel">
+                        <div class="editorial-card-inner">
+                            <span class="card-tag">SAMARBETEN</span>
+                            <h3 class="card-title">Affiliate Marketing</h3>
+                            <p class="card-desc">Strategier och samarbeten för prestationsbaserad marknadsföring.</p>
+                            <div class="card-metric-badge dark-badge">Skalbar tillväxt</div>
+                        </div>
+                    </article>
+
+                    <!-- Card 8: Strategi & Entreprenörskap -->
+                    <article class="grid-card editorial-card light-editorial" data-category="marknadsforing">
+                        <div class="editorial-card-inner">
+                            <span class="card-tag">VISION</span>
+                            <h3 class="card-title">Digital Strategi</h3>
+                            <p class="card-desc">Innovativa idéer som hjälper ditt företag att nå uppsatta affärsmål.</p>
+                            <div class="card-metric-badge dark-badge">Affärsutveckling</div>
+                        </div>
+                    </article>
+
+                    <!-- Card 9: IHM Business School -->
+                    <article class="grid-card editorial-card light-editorial" data-category="marknadsforing">
+                        <div class="editorial-card-inner">
+                            <span class="card-tag">KOMPETENS</span>
+                            <h3 class="card-title">IHM Business School</h3>
+                            <p class="card-desc">Fördjupad utbildning inom modern marknadsanalys, digitala ekosystem och mätbara resultat.</p>
+                            <div class="card-metric-badge dark-badge">Digital Specialist</div>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Load More / Contact Pill Button (Matching "LOAD MORE" in Pin) -->
+                <div class="work-footer-cta">
+                    <a href="#kontakt" class="pill-cta-btn">
+                        KONTAKTA MIG FÖR SAMARBETE
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section ("KONTAKT") -->
+        <section id="kontakt" class="contact-section">
+            <div class="section-container">
+                <div class="contact-header-center">
+                    <span class="contact-pill-tag">KONTAKT</span>
+                    <h2 class="contact-main-title">LÅT OSS SAMARBETA<span class="dot-yellow">.</span></h2>
+                    <p class="contact-intro">
+                        Tveka inte att höra av dig om du vill samarbeta eller har funderingar!
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Phone Card -->
+                    <a href="tel:0739722021" class="contact-card">
+                        <div class="contact-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                        </div>
+                        <span class="contact-label">TELEFON</span>
+                        <strong class="contact-value">073-9722021</strong>
+                        <span class="contact-hint">Klicka för att ringa</span>
+                    </a>
+
+                    <!-- Email Card -->
+                    <div class="contact-card email-card">
+                        <div class="contact-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <span class="contact-label">E-POST</span>
+                        <a href="mailto:luk.marinkovic@gmail.com" class="contact-value email-link">luk.marinkovic@gmail.com</a>
+                        <button type="button" class="copy-email-btn" id="copy-email-trigger" aria-label="Kopiera e-postadress">
+                            Kopiera adress
+                        </button>
+                    </div>
+
+                    <!-- LinkedIn Card -->
+                    <a href="https://www.linkedin.com/in/luka-marinkovic-727045298/" target="_blank" rel="noopener noreferrer" class="contact-card linkedin-card" aria-label="Besök Luka Marinkovics LinkedIn-profil">
+                        <div class="contact-card-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </div>
+                        <span class="contact-label">LINKEDIN</span>
+                        <strong class="contact-value">Luka Marinkovic</strong>
+                        <span class="contact-hint">Besök LinkedIn ↗</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="sidfot">
+        <div class="footer-container">
+            <div class="footer-left">
+                <span class="footer-brand">LUKA MARINKOVIC</span>
+                <span class="footer-separator">|</span>
+                <span class="footer-role">Digital Marketing Specialist</span>
+            </div>
+            <div class="footer-center">
+                <p>Studerande på IHM Business School &amp; Egenföretagare</p>
+            </div>
+            <div class="footer-right">
+                <a href="#hero" class="back-to-top" aria-label="Tillbaka till toppen">Till toppen ↑</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification Container for Quick Feedback -->
+    <div id="toast" class="toast-message" role="alert" aria-live="polite"></div>
+</body>
+
+</html>
